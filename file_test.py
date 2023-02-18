@@ -2,8 +2,8 @@ import pytest
 
 def test_calc_addition():
   # Fonction test du résultat de 2+4
-    output = 2+7
-    assert output == 9
+    output = 2+8
+    assert output == 10
 
 def test_calc_substraction():
   # Fonction test du résultat de 2-4
