@@ -9,6 +9,7 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello world"
+             echo ${{env.DEV.MY_SECRET}}
       - name: multiline script
         run: |
           python3 -V
